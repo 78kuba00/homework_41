@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My FakeBook - Homepage</title>
+        <style>
+        a{
+            color:blue;
+        }
+        .active{
+            color:red;
+        }
+        .content{
+            padding:200px;
+            background-color:lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/" class="active">Homepage</a>
+        <a href="/friends">Friends</a>
+        <a href="/family">Family</a>
+        <a href="/posts">Posts</a>
+    </header>
+    <div class="content">
+Занятие #41. Домашнее задание
+Создайте проект на Django с любым названием, например: simple_blog, fake_book, i_tube и т.д. Примените миграции и создайте базу данных sqlite3. Создайте файл requirements.txt, где будут перечислены зависимости проекта.
+
+
+Создайте в проекте приложение webapp. Добавьте в него 2-4 представления (view) и подключите их в urls.py в главном приложении. Пусть каждое представление рендерит и отдаёт шаблон со статическим контентом: это может быть любой текст (лорем подойдёт), вёрстка со встроенными стилями (тег <style></style>), ссылки на другие страницы и т.д.
+
+Важно, чтобы на разные страницы вели разные ссылки и на них был разный контент.
+
+Сдайте проект в архиве:
+
+Весь код проекта (django-проект + вложенные приложения)
+Файл requirements.txt
+Не включайте в архив базу данных (файл db.sqlite3) и виртуальное окружение (папку venv), а также папку .idea, если вы работаете в PyCharm.
+    </div>
+</body>
+</html>
